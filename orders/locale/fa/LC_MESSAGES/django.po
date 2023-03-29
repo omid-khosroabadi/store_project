@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-28 18:22+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\templates\orders\order_list.html:15
+msgid "order"
+msgstr "سفارش"
+
+#: .\templates\orders\order_list.html:32
+msgid "options order"
+msgstr "جزیات سفارش"
+
+#: .\templates\orders\order_list.html:44
+msgid "first_name"
+msgstr "نام"
+
+#: .\templates\orders\order_list.html:50
+msgid "last_name"
+msgstr "نام خانوادگی"
+
+#: .\templates\orders\order_list.html:58
+msgid "address"
+msgstr "ادرس"
+
+#: .\templates\orders\order_list.html:65
+msgid "phone"
+msgstr "تلفن"
+
+#: .\templates\orders\order_list.html:73
+msgid "note"
+msgstr "یادداشت"
+
+#: .\templates\orders\order_list.html:78
+msgid "If you have a note, enter it here. Otherwise, leave this field blank"
+msgstr "اگر یادداشتی دارید در اینجا وارد کنید. در غیر این صورت این مکان را خالی بگذارید"
+
+#: .\templates\orders\order_list.html:88
+msgid "your order"
+msgstr "سفارش شما"
+
+#: .\templates\orders\order_list.html:95
+msgid "end price"
+msgstr "قیمت نهایی"
+
+#: .\templates\orders\order_list.html:105
+#: .\templates\orders\order_list.html:113
+msgid "$"
+msgstr "تومان"

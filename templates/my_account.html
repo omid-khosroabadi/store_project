@@ -1,0 +1,16 @@
+{% extends "without_cart.html" %}
+{% block content %}
+    <center>
+        <h1>detail page</h1>
+        {% if user.email%}
+            {{ user.email }}
+        {% endif %}<br>
+        {% if user.first_name %}
+            {{ user.first_name }}
+        {% endif %}<br>
+        {% if user.last_name %}
+            {{ user.last_name }}
+        {% endif %}
+    </center>
+{% endblock content %}
+

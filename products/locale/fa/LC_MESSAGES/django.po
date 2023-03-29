@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-28 17:27+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\forms.py:7
+msgid "search for mobile"
+msgstr "جستجو برای موبایل"
+
+#: .\models.py:12
+msgid "green"
+msgstr "سبز"
+
+#: .\models.py:13
+msgid "yellow"
+msgstr "زرد"
+
+#: .\models.py:14
+msgid "blue"
+msgstr "ابی"
+
+#: .\models.py:15
+msgid "red"
+msgstr "قرمز"
+
+#: .\models.py:16
+msgid "brown"
+msgstr "قهوه ای"
+
+#: .\models.py:17
+msgid "white"
+msgstr "سفید"
+
+#: .\models.py:18
+msgid "black"
+msgstr "مشکی"
+
+#: .\models.py:51
+msgid "very bad"
+msgstr "خیلی بد"
+
+#: .\models.py:52
+msgid "bad"
+msgstr "بد"
+
+#: .\models.py:53
+msgid "normal"
+msgstr "معمولی"
+
+#: .\models.py:54
+msgid "good"
+msgstr "خوب"
+
+#: .\models.py:55
+msgid "perfect"
+msgstr "عالی"
+
+#: .\templates\products\book_detail.html:21
+msgid "author"
+msgstr "نویسنده"
+
+#: .\templates\products\book_detail.html:25
+#: .\templates\products\book_list.html:61
+#: .\templates\products\mobile_detail.html:39
+#: .\templates\products\mobile_detail.html:41
+#: .\templates\products\mobile_list.html:61
+#: .\templates\products\mobile_list.html:64
+msgid "$"
+msgstr "تومان"
+
+#: .\templates\products\book_detail.html:41
+#: .\templates\products\mobile_detail.html:54
+msgid "add to cart"
+msgstr "اضافه به سبد خرید"
+
+#: .\templates\products\book_detail.html:54
+#: .\templates\products\mobile_detail.html:81
+msgid "comments"
+msgstr "نظرات"
+
+#: .\templates\products\book_detail.html:62
+#: .\templates\products\mobile_detail.html:136
+msgid "recommend you"
+msgstr "توصیه میکند"
+
+#: .\templates\products\book_detail.html:64
+msgid "not recommen you"
+msgstr "توصیه نمیکند"
+
+#: .\templates\products\book_detail.html:73
+#: .\templates\products\mobile_detail.html:164
+msgid "write your comment"
+msgstr "نظر خود را بنویسید"
+
+#: .\templates\products\book_list.html:14
+#: .\templates\products\mobile_list.html:14
+msgid "search"
+msgstr "جستجو"
+
+#: .\templates\products\book_list.html:87
+#: .\templates\products\mobile_list.html:90
+msgid "next"
+msgstr "بعد"
+
+#: .\templates\products\book_list.html:88
+#: .\templates\products\mobile_list.html:91
+msgid "last"
+msgstr "قبل"
+
+#: .\templates\products\comment_delete.html:8
+msgid "yes i am sure"
+msgstr "بله اطمینان دارم"
+
+#: .\templates\products\mobile_detail.html:16
+msgid "options products"
+msgstr "جزیات محصولات"
+
+#: .\templates\products\mobile_detail.html:60
+msgid "category"
+msgstr "دسته بندی"
+
+#: .\templates\products\mobile_detail.html:73
+msgid "description of product"
+msgstr "توضیحات محصول"
+
+#: .\templates\products\mobile_detail.html:77
+msgid "options"
+msgstr "ویژگی ها"
+
+#: .\templates\products\mobile_detail.html:97
+msgid "weight"
+msgstr "وزن"
+
+#: .\templates\products\mobile_detail.html:98
+msgid "g"
+msgstr "گرم"
+
+#: .\templates\products\mobile_detail.html:101
+msgid "color"
+msgstr "رنگ"
+
+#: .\templates\products\mobile_detail.html:107
+msgid "datetime_created"
+msgstr "سال تولید"
+
+#: .\templates\products\mobile_detail.html:119
+msgid "comment"
+msgstr "نظر"
+
+#: .\templates\products\mobile_detail.html:120
+msgid "for"
+msgstr "برای"
+
+#: .\templates\products\mobile_detail.html:139
+msgid "not recommend you"
+msgstr "توصیه نمیکند"
+
+#: .\templates\products\mobile_detail.html:170
+msgid "send comment"
+msgstr "ارسال نظر"
+
+#: .\templates\products\mobile_list.html:54
+msgid "special offer"
+msgstr "تخفیف ویژه"
+
+#: .\templates\products\mobile_list.html:81
+msgid "first"
+msgstr "صفحه ی اول"
+
+#: .\templates\products\mobile_list.html:82
+msgid "previous"
+msgstr "قبل"

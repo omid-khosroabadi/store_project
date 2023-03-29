@@ -1,0 +1,11 @@
+{% extends 'without_cart.html' %}
+{% load i18n %}
+{% block content %}
+    <center>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="{% trans 'yes i am sure' %}">
+        </form>
+    </center>
+{% endblock %}

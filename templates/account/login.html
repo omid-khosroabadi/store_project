@@ -1,0 +1,15 @@
+{% extends 'without_cart.html' %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% block content %}
+<center>
+    <h1 style="color: #1e7e34">login page</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input type="submit" value="login" class="btn btn-success">
+    </form>
+    <a href="{% url 'account_reset_password' %}">{% trans 'forgot password' %}</a>
+</center>
+{% endblock %}
