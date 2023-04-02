@@ -3,6 +3,9 @@ from .models import Order
 
 
 class OrderForm(forms.ModelForm):
+    '''
+    This function is to get user profile
+    '''
     class Meta:
         model = Order
         fields = ['f_name', 'l_name', 'phone', 'address', 'description']
