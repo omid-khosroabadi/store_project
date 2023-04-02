@@ -8,6 +8,9 @@ from django.utils.translation import gettext as _
 
 
 class Mobile(models.Model):
+    '''
+    Mobile product information
+    '''
     COLORS = (
         ('GREEN', _('green')),
         ('YELLOW', _('yellow')),
@@ -35,6 +38,9 @@ class Mobile(models.Model):
 
 
 class Book(models.Model):
+    '''
+    Book product information
+    '''
     title = models.CharField(max_length=100)
     author = models.CharField(max_length=100)
     text = RichTextField()
@@ -47,6 +53,9 @@ class Book(models.Model):
 
 
 class Comment(models.Model):
+    '''
+    Fields related to sending comments
+    '''
     STAR = (
         ('1', _('very bad')),
         ('2', _('bad')),
