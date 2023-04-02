@@ -6,11 +6,17 @@ from django.contrib import messages
 
 
 def cart_detail(request):
+    '''
+    render cart page
+    '''
     cart = Cart(request)
     return render(request, 'cart/cart_detail.html', context={'cart': cart})
 
 
 def cart_add(request, pk):
+    '''
+    for add product in cart
+    '''
     cart = Cart(request)
     product = get_object_or_404(Mobile, id=pk)
     form = AddToCart(request.POST)
@@ -23,6 +29,9 @@ def cart_add(request, pk):
 
 
 def cart_remove(request, pk):
+    '''
+    for remove product from cart
+    '''
     cart = Cart(request)
     product = get_object_or_404(Mobile, id=pk)
     cart.remove(product)
@@ -31,6 +40,9 @@ def cart_remove(request, pk):
 
 
 def cart_clear(request):
+    '''
+    for clear cart
+    '''
     cart = Cart(request)
     if len(cart):
         cart.clear()
