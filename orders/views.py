@@ -8,6 +8,11 @@ from django.contrib import messages
 
 @login_required
 def order_list(request):
+    '''
+    In this function, the user must be logged in to his user account
+    and fill the specified form, and if the information is correct,
+    it will be sent to the database.
+    '''
     cart = Cart(request)
     form = OrderForm()
 
