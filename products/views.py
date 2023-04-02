@@ -9,6 +9,9 @@ from django.urls import reverse_lazy, reverse
 
 
 class MobileList(generic.ListView):
+    '''
+    The class related to the list of mobiles
+    '''
     paginate_by = 3
     template_name = 'products/mobile_list.html'
     model = Mobile
@@ -27,6 +30,9 @@ class MobileList(generic.ListView):
 
 
 class MobileDetail(generic.DetailView):
+    '''
+    Mobile product details
+    '''
     model = Mobile
     template_name = 'products/mobile_detail.html'
     context_object_name = 'mobile'
@@ -38,6 +44,9 @@ class MobileDetail(generic.DetailView):
 
 
 class BookList(generic.ListView):
+    '''
+    The class related to the list of books
+    '''
     paginate_by = 3
     model = Book
     template_name = 'products/book_list.html'
@@ -55,6 +64,9 @@ class BookList(generic.ListView):
 
 
 class BookDetail(generic.DetailView):
+    '''
+    book product details
+    '''
     model = Book
     template_name = 'products/book_detail.html'
     context_object_name = 'book'
@@ -66,6 +78,9 @@ class BookDetail(generic.DetailView):
 
 
 class CommentMobile(generic.CreateView):
+    '''
+    comment for mobile
+    '''
     model = Comment
     form_class = CommentForm
 
@@ -79,6 +94,9 @@ class CommentMobile(generic.CreateView):
 
 
 class CommentBook(generic.CreateView):
+    '''
+    comment for book
+    '''
     model: Type[Comment]
     form_class = CommentForm
     success_url = reverse_lazy('book_list')
