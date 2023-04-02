@@ -4,6 +4,9 @@ from products.models import Mobile
 
 
 class Order(models.Model):
+    '''
+    This class creates user profile fields
+    '''
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     is_paid = models.BooleanField(default=False)
 
@@ -19,6 +22,9 @@ class Order(models.Model):
 
 
 class OrderItem(models.Model):
+    '''
+    This class specifies the user and the product he selected and its number
+    '''
     order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='items')
     product = models.ForeignKey('products.Mobile', on_delete=models.CASCADE, related_name='order_items')
     quantity = models.PositiveIntegerField(default=1)
